@@ -1,8 +1,4 @@
 import numpy as np
-input = [0.05, 0.1]
-weights_in = [[0.15, 0.2], [0.25, 0.3]]
-weights_hddn = [[0.4, 0,45], [0.5, 0.55]]
-bias = 0.35
 
 def sigmoid(no, type='unipolar', lam=1):
     if type == "unipolar":
